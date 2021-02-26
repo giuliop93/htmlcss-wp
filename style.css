@@ -60,3 +60,19 @@ li {
     margin-top: -95px;
     color: white;
 }
+
+h2 {
+    margin-top: 2%;
+    margin-left: 20%;
+}
+
+h5 {
+    padding: 0,7%;
+    color: rgb(156, 154, 154);
+    margin-left: 20%;
+    font-weight: lighter;
+}
+
+footer {
+    text-align: center;
+}
