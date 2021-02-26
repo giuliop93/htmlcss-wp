@@ -39,10 +39,24 @@ li {
 }
 
 .overlay {
+    color: white;
     margin-top: 6%;
     height: 400px;
     width: 1000px;
     background-position: center;
     linear-gradient: rgba(0, 0, 0, 0.7);
     border-radius: 10px;
+}
+
+.text1 {
+    margin-left: 5%;
+    margin-top: -100px;
+    color: white;
+}
+
+.text2 {
+    font-size: x-large;
+    margin-left: 5%;
+    margin-top: -95px;
+    color: white;
 }
