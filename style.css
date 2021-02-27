@@ -73,6 +73,44 @@ h5 {
     font-weight: lighter;
 }
 
+.container {
+    margin-top: 2%;
+    margin-left: 20%;
+    float: left;
+    height: 200px;
+    width: 100vw;
+}
+
+.img2 {
+    height: 150px;
+    width: 200px;
+    background-image: url("img/img-1.jpg");
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+.img3 {
+    height: 150px;
+    width: 350px;
+    background-image: url("img/banner-2.jpg");
+    border-radius: 10px;
+    background-position: center;
+}
+
+.img4 {
+    height: 150px;
+    width: 200px;
+    background-image: url("img/img-3.jpg");
+    border-radius: 10px;
+    background-size: contain;
+}
+
 footer {
     text-align: center;
 }
+
+span {
+    color: red;
+}
+
