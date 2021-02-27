@@ -75,35 +75,76 @@ h5 {
 
 .container {
     margin-top: 2%;
-    margin-left: 20%;
     float: left;
     height: 200px;
     width: 100vw;
 }
 
+.container > .img0 .title0 .text0  {
+    float: left;
+}
+
 .img2 {
+    margin-left: 17%;
     height: 150px;
-    width: 200px;
+    width: 18%;
     background-image: url("img/img-1.jpg");
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+}
+
+.img3 {
+    display: inline-block;
+    height: 150px;
+    width: 40%;
+    background-image: url("img/banner-2.jpg");
     border-radius: 10px;
     background-position: center;
     background-size: cover;
 }
 
-.img3 {
-    height: 150px;
-    width: 350px;
-    background-image: url("img/banner-2.jpg");
-    border-radius: 10px;
-    background-position: center;
-}
-
 .img4 {
+    display: inline-block;
     height: 150px;
-    width: 200px;
+    width: 18%;
     background-image: url("img/img-3.jpg");
     border-radius: 10px;
     background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.title1, .title2, .title3 {
+    display: inline-block;
+}
+
+.title1 {
+    width: 18%;
+}
+
+.title2 {
+    width: 40%;
+}
+
+.title3 {
+    width: 18%;
+}
+
+.text3, .text4, .text5 {
+    display: inline-block;
+}
+
+.text3 {
+    width: 18%;
+}
+
+.text4 {
+    width: 40%;
+}
+
+.text5 {
+    width: 18%;
 }
 
 footer {
