@@ -61,8 +61,12 @@ li {
     color: white;
 }
 
+section {
+    height: 500px;
+}
+
 h2 {
-    margin-top: 2%;
+    margin-top: -4%;
     margin-left: 20%;
 }
 
@@ -98,7 +102,7 @@ h5 {
 .img3 {
     display: inline-block;
     height: 150px;
-    width: 40%;
+    width: 32%;
     background-image: url("img/banner-2.jpg");
     border-radius: 10px;
     background-position: center;
@@ -116,11 +120,13 @@ h5 {
 }
 
 .title1, .title2, .title3 {
+    margin-top: 1%;
     display: inline-block;
 }
 
 .title1 {
     width: 18%;
+    margin-left: 20%;
 }
 
 .title2 {
@@ -132,19 +138,25 @@ h5 {
 }
 
 .text3, .text4, .text5 {
+    margin-top: 1%
     display: inline-block;
+    color: lightslategray;
 }
 
 .text3 {
-    width: 18%;
+    margin-top: 1%;
+    width: 14%;
+    margin-left: 20%;
 }
 
 .text4 {
-    width: 40%;
+    margin-top: 1%;
+    width: 32%;
 }
 
 .text5 {
-    width: 18%;
+    margin-top: 1%;
+    width: 14%;
 }
 
 footer {
